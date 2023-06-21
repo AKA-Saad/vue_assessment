@@ -120,11 +120,11 @@ export default {
         MenuButton,
         MenuItem,
         MenuItems,
-        
+
     },
 
     setup() {
-        
+
         const employees = reactive([]);
 
         onMounted(() => {
